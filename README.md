@@ -33,12 +33,18 @@ git clone https://github.com/magic-create/electron_demon
 |   ├── build
 |   └── renderer
 |
-├── src						vue代码
-|   ├── app					通用内容
+├── src					vue代码
+|   ├── app				通用内容
 |   ├── views				视图内容
 |   ├── Frame.vue			入口视图
 |   └── main.js				启动文件
 ```
+
+## 使用步骤
+
+1. 安装依赖 npm install
+2. 开发调试 npm run dev
+3. 打包编译 npm run build
 
 ## 网络问题请添加文件(.npmrc)
 
@@ -50,6 +56,6 @@ electron_mirror=http://npm.taobao.org/mirrors/electron/
 
 ## 特殊申明
 
-本模板已发布至Npm，理论上只内部使用，如有问题请自行解决，概不提供服务
+本模板理论上只内部使用，如有问题请自行解决，概不提供服务
 
 最终解释权归魔网天创信息科技:尘兵所属
